@@ -8,5 +8,5 @@ require('compose-class-names)({
 ```
 returns:
 ```js
-{foo: "asdf quer"}
+{foo: "asdf qwer"}
 ```
