@@ -1,0 +1,23 @@
+{
+  "name": "compose-class-names",
+  "version": "1.0.1",
+  "description": "merges two maps of localized css class names via space concatenation",
+  "author": "1stdibs.com, Inc.",
+  "scripts": {
+    "test": "mocha",
+    "gitlint": "node_modules/.bin/dibslint --git --warnings",
+    "lint": "dibslint --root=."
+  },
+  "main": "index.js",
+  "pre-commit": {
+    "run": [
+      "gitlint"
+    ]
+  },
+  "devDependencies": {
+    "dibslint": "^1.2.4",
+    "mocha": "^2.3.4",
+    "nodemon": "^1.8.1",
+    "pre-commit": "^1.1.2"
+  }
+}
