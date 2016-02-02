@@ -1,5 +1,5 @@
 ## merges two maps of localized css class names via space concatenation
-```js`
+```js
 require('compose-class-names)({
     foo: "asdf"
 }, {
