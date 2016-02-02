@@ -5,7 +5,7 @@
   "author": "1stdibs.com, Inc.",
   "scripts": {
     "test": "mocha",
-    "gitlint": "node_modules/.bin/dibslint --git --warnings",
+    "gitlint": "dibslint --git --warnings",
     "lint": "dibslint --root=."
   },
   "main": "index.js",
@@ -22,5 +22,17 @@
   },
   "dependencies": {
     "lodash.assign": "^4.0.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1stdibs/compose-class-names.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1stdibs/compose-class-names/issues"
+  },
+  "homepage": "https://github.com/1stdibs/compose-class-names#readme"
 }
