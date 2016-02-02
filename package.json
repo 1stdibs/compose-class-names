@@ -1,6 +1,6 @@
 {
   "name": "compose-class-names",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "merges two maps of localized css class names via space concatenation",
   "author": "1stdibs.com, Inc.",
   "scripts": {
